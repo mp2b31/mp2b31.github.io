@@ -100,6 +100,7 @@ function initCanvas() {
   loop()
 
   function onResize() {
+    if (!canvas) return
     W = canvas.width = window.innerWidth
     H = canvas.height = window.innerHeight
   }
